@@ -1,0 +1,35 @@
+
+
+  OneMillionDollarThug
+    Deployment
+USDCKingAddress:  0x2b639Cc84e1Ad3aA92D4Ee7d2755A6ABEf300D72
+KingMedalNFTAddress:  0xD2D5e508C82EFc205cAFA4Ad969a4395Babce026
+OneMillionDollarThugAddress:  0xF85895D097B2C25946BB95C4d11E2F3c035F8f0C
+TwoMillionDollarThugAddress:  0x0b27a79cb9C0B38eE06Ca3d94DAA68e0Ed17F953
+      ✔ Should delploy and set up contracts (3580ms)
+ETH balance before swap : 9999.95797535061339408 ETH
+ETH balance after swap : 9979.954915169559929822 ETH
+      ✔ fund thugs with little USDC (3794ms)
+    One million dollar thug
+King before:  0x0000000000000000000000000000000000000000
+initiator:  0xf85895d097b2c25946bb95c4d11e2f3c035f8f0c
+balance of USDC:     1015679982606
+asset:  0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48
+flash loan amount: 1000000000000
+flash loan fee:      500000000
+amount to return:    1000500000000
+King after:  0xF85895D097B2C25946BB95C4d11E2F3c035F8f0C
+      ✔ thug should become king (5672ms)
+    Two million dollar thug
+King before:  0xF85895D097B2C25946BB95C4d11E2F3c035F8f0C
+initiator:  0x0b27a79cb9c0b38ee06ca3d94daa68e0ed17f953
+balance of USDC:  2015678776894
+asset:  0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48
+flash loan amount:  2000000000000
+flash loan fee:  0
+King after:  0x0b27a79cb9C0B38eE06Ca3d94DAA68e0Ed17F953
+      ✔ another thug should become king (5575ms)
+
+
+  4 passing (19s)
+
